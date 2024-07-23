@@ -1,0 +1,9 @@
+'''
+    59. Write a Python program to convert height (in feet and inches) to centimeters.
+'''
+print("Input your height: ")
+h_ft = int(input("Feet: "))
+h_inch = int(input("Inches: "))
+h_inch = h_inch+(h_ft * 12)
+h_cm = h_inch * 2.54
+print("Your height is : %d cm." % h_cm)

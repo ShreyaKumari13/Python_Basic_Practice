@@ -1,0 +1,8 @@
+'''
+    88. Given variables x=30 and y=20, write a Python program to print "30+20=50".
+
+'''
+x=30
+y=20
+a=x+y
+print('The sum of number is %d+%d=%d' %(x,y,a))
